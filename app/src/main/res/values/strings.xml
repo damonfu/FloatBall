@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QuickBall</string>
+    <string name="accessibility_service_label">Virtual return key</string>
+    <string name="accessibility_description">Would you please open in the top right corner of the switch, the permissions granted suspension ball back</string>
+    <string name="app_title">Detail</string>
+    <string name="sure">OK</string>
+    <string name="cancel">NO</string>
+    <string name="sprite_opened">Turned ON</string>
+    <string name="sprite_closed">Turned OFF</string>
+    <string name="backevent_alert_title">Open return key auxiliary services</string>
+    <string name="backevent_alert_message">As shown in the auxiliary services open virtual return key services, floating ball return key to normal use</string>
+</resources>

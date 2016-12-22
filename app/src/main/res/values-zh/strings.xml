@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">悬浮球</string>
+    <string name="accessibility_service_label">虚拟返回键</string>
+    <string name="accessibility_description">请您开启右上角的开关，授予悬浮球返回键的权限</string>
+    <string name="app_title">介绍</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="sprite_opened">已开启</string>
+    <string name="sprite_closed">已关闭</string>
+    <string name="backevent_alert_title">开启返回键辅助服务</string>
+    <string name="backevent_alert_message">如图所示在辅助服务中打开虚拟返回键服务，悬浮球返回键才能正常使用</string>
+</resources>

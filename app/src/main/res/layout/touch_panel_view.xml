@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/panel_bg"
+    android:orientation="vertical"
+    android:padding="6.0dip">
+
+    <LinearLayout style="@style/sysbar_keybutton_layout_style">
+
+        <Button
+            android:id="@+id/key1"
+            android:clickable="false"
+            android:background="@android:color/transparent"
+            style="@style/sysbar_keybutton_style" />
+
+        <RelativeLayout
+            android:id="@+id/clickRecent"
+            android:clickable="true"
+            android:background="@drawable/float_panel_item_selector"
+            style="@style/sysbar_keybutton_style">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_sysbar_recent"
+                android:layout_width="@dimen/panel_image_size"
+                android:layout_height="@dimen/panel_image_size" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/key3"
+            android:clickable="false"
+            android:background="@android:color/transparent"
+            style="@style/sysbar_keybutton_style" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/sysbar_keybutton_layout_style">
+
+        <RelativeLayout
+            android:id="@+id/clickBack"
+            android:clickable="true"
+            android:background="@drawable/float_panel_item_selector"
+            style="@style/sysbar_keybutton_style">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_sysbar_back"
+                android:layout_width="@dimen/panel_image_size"
+                android:layout_height="@dimen/panel_image_size" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/clickHome"
+            android:clickable="true"
+            android:background="@drawable/float_panel_item_selector"
+            style="@style/sysbar_keybutton_style">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_sysbar_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/clickMenu"
+            android:clickable="true"
+            android:background="@drawable/float_panel_item_selector"
+            style="@style/sysbar_keybutton_style">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_sysbar_menu"
+                android:layout_width="@dimen/panel_image_size"
+                android:layout_height="@dimen/panel_image_size" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/sysbar_keybutton_layout_style">
+
+        <Button
+            android:id="@+id/key7"
+            android:clickable="false"
+            android:background="@android:color/transparent"
+            style="@style/sysbar_keybutton_style" />
+
+        <RelativeLayout
+            android:id="@+id/clickLauncher"
+            android:clickable="true"
+            android:background="@drawable/float_panel_item_selector"
+            style="@style/sysbar_keybutton_style">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_sysbar_home"
+                android:layout_width="@dimen/panel_image_size"
+                android:layout_height="@dimen/panel_image_size" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/key9"
+            android:clickable="false"
+            android:background="@android:color/transparent"
+            style="@style/sysbar_keybutton_style" />
+    </LinearLayout>
+</LinearLayout>

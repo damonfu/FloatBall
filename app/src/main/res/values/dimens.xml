@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <dimen name="dialog_action_button_height">32dp</dimen>
+    <dimen name="dialog_action_button_text_size">14sp</dimen>
+    <dimen name="dialog_action_button_min_width">56dp</dimen>
+    <dimen name="dialog_action_button_padding_horizontal">4dp</dimen>
+    <dimen name="panel_image_size">65dp</dimen>
+    <dimen name="panel_size">207dp</dimen>
+</resources>
